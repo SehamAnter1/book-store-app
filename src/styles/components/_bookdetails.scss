@@ -1,0 +1,25 @@
+// book details styling
+.book-details{
+    @media screen and (min-width:768px) {       
+        .cover,.description{
+         height: 85vh;  
+        }
+    
+    .description {
+        overflow-y: scroll;
+     }
+    }
+    .description::-webkit-scrollbar {
+        width: 6px;
+    background-color: $main-color;
+    outline: -1px solid slategray;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+} 
+.go-back{
+    color: $main-color;
+}
+}

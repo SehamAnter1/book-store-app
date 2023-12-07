@@ -1,0 +1,17 @@
+// book list styling
+
+.booklist .card {
+    height: 70vh;
+    overflow: hidden;
+    padding: 10px;
+
+    img {
+        vertical-align: middle;
+        height: 80%;
+        object-fit: none;
+    }
+}
+
+.pagination {
+    flex-wrap: wrap;
+}

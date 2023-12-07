@@ -1,0 +1,92 @@
+.header {
+  background-image: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url(./../../images/header-bg.jpg);
+  width: 100%;
+  background-position: center;
+  min-height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.header input:focus-visible {
+  border: none !important;
+}
+.header .title,
+.header .decsription {
+  text-align: center;
+}
+.header .search-icon {
+  color: #8d27ae;
+  font-size: 29px;
+  font-size: 17px;
+  gap: 7px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+body input,
+body button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.footer {
+  background: rgba(243, 224, 243, 0.4196078431);
+  color: #8d27ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.booklist .card {
+  height: 70vh;
+  overflow: hidden;
+  padding: 10px;
+}
+.booklist .card img {
+  vertical-align: middle;
+  height: 80%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.pagination {
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .book-details .cover, .book-details .description {
+    height: 85vh;
+  }
+  .book-details .description {
+    overflow-y: scroll;
+  }
+}
+.book-details .description::-webkit-scrollbar {
+  width: 6px;
+  background-color: #8d27ae;
+  outline: -1px solid slategray;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.book-details .go-back {
+  color: #8d27ae;
+}
+
+.about h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 18px 0 24px 0;
+}/*# sourceMappingURL=styles.css.map */

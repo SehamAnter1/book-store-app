@@ -15,8 +15,8 @@ function App() {
       <FetchDataProvider>
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />}>
-            <Route path="/home/books/:bookId" element={<BookDetails />} />
+          <Route path="/" element={<Home />}>
+            <Route path="/books/:bookId" element={<BookDetails />} />
           </Route>
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />{" "}

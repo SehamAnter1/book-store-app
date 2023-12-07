@@ -1,5 +1,6 @@
 {
-  "name": "my-react-app",
+  "homepage": "https://sehamanter1.github.io/book-store-app/",
+  "name": "book-store-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
